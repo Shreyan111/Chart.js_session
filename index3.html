@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Live Chart</title>
+    <link rel="stylesheet" type="text/css" href="styles3.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+  </head>
+  <body>
+    <h1>Poll Results with Chart.js</h1>
+<div class="chart-container">
+  <canvas id="chart"></canvas> <!-- <canvas id="chart" width="300" height="150"></canvas> -->
+</div>
+<form id="pollForm">
+  <div class="poll">
+    <div class="poll-heading">
+      <h3 class="poll-title">Favorite Food</h3>
+    </div>
+    <div class="poll-body">
+      <ul>
+        <li>
+          <label><input type="radio" name="pollOptions" value="Pav Bhaaji"><span>Pav Bhaaji</span></label>
+        </li>
+        <li>
+          <label><input type="radio" name="pollOptions" value="Momos"><span>Momos</span></label>
+        </li>
+        <li>
+          <label><input type="radio" name="pollOptions" value="Burger"><span>Burger</span></label>
+        </li>
+        <li>
+          <label><input type="radio" name="pollOptions" value="Pizza"><span>Pizza</span></label>
+        </li>
+        <li>
+          <label><input type="radio" name="pollOptions" value="Chowmein"><span>Chowmein</span></label>
+        </li>
+        <li>
+          <label><input type="radio" name="pollOptions" value="Kebabs"><span>Kebabs</span></label>
+        </li>
+        <li>
+          <label><input type="radio" name="pollOptions" value="Rasgulla"><span>Rasgulla</span></label>
+        </li>
+      </ul>
+    </div>
+    <div class="poll-footer">
+      <button type="submit">Vote</button>
+    </div>
+  </div>
+</form>
+<script type="text/javascript" src="script3.js"></script>
+  </body>
+</html>
